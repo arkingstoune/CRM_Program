@@ -1,4 +1,4 @@
-namespace Crm;
+namespace Crm.Data;
 
 public sealed class Client
 {
@@ -8,8 +8,6 @@ public sealed class Client
     private short _age;
     private string? _pasportNumber;
     private string? _gender;
-    private string? _orderSpecification;
-    private string? _orderId;
     private string? _phone;
     private string? _email;
     private string? _password;
@@ -113,28 +111,5 @@ public sealed class Client
             _gender = value;
         }
     } 
-   public  string OrderSpecification
-    {
-        get{ return _orderSpecification ?? string.Empty; }
-        init 
-        {
-            if(value.Length == 0)
-                throw new ArgumentOutOfRangeException(nameof(value),
-                "The valid OrderSpecification ");
-            _orderSpecification = value;
-        }
-    } 
-    public  string OrderId
-    {
-        get{ return _orderId ?? string.Empty; }
-        init 
-        {
-            if(value.Length == 0)
-                throw new ArgumentOutOfRangeException(nameof(value),
-                "The valid OrderSpecification ");
-            _orderId = value;
-        }
-    } 
-    
-    
+        
 }

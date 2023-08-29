@@ -1,39 +1,42 @@
 ﻿using Crm;
+using Crm.BusinessLogic;
 using System;
 
 ClientService clientService = new();
- List<Client> ListOfClients = new List<Client>();
  
-
 CreateOrder();
-ClientMethod Oleg = new ClientMethod();
+// ClientMethod Oleg = new ClientMethod();
 
 void CreateClient()
 {
     string? firstName = Console.ReadLine();
     string? lastName = Console.ReadLine();
     string? middleName = Console.ReadLine();
-    short age = short.Parse(Console.ReadLine());
+    string? age = Console.ReadLine();
     string? passportNumber = Console.ReadLine();
     string? gender = Console.ReadLine();
-
-    Client newClient = clientService.CreateClient(new ClientInfo(){
-        FirstName = firstName,
+    ClientInfo clientInfo = new(){
+        FirstName =firstName,
         LastName = lastName,
-        Age = age
-    });
-    Console.WriteLine(newClient.FirstName);
+        MiddleName = middleName,
+        Age = age,
+        PassportNumber = passportNumber,
+        Gender = gender
+    };
+    clientService.CreateClient(clientInfo);
 }
 void CreateOrder()
 {
     string? OrderSpeciFication =  Console.ReadLine();
-    string? Ordreid = Console.ReadLine();
-    Client newClient = clientService.CreateOrder(new ClientOrder()
+    string? OrdreId = Console.ReadLine();
+    string? orderAdress = Console.ReadLine();
+    
+    OrderInfo newOrder =new()
     {
-        OrderSpecification =  OrderSpeciFication,
-        OrderId = Ordreid 
-    });
-    Console.WriteLine(newClient.OrderId);
-    ListOfClients.Add(newClient);
+        OrderSpeciFication =  OrderSpeciFication,
+        OrderId = OrdreId,
+        Adress = orderAdress
+    };
+    clientService.CreateOrder(newOrder);
 
 }

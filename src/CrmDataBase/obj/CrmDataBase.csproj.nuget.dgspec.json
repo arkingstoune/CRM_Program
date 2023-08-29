@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\CrmDataBase\\CrmDataBase.csproj": {}
+    "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\CrmDataBase\\CrmDataBase.csproj": {
+    "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\CrmDataBase\\CrmDataBase.csproj",
+        "projectUniqueName": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj",
         "projectName": "CrmDataBase",
-        "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\CrmDataBase\\CrmDataBase.csproj",
+        "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj",
         "packagesPath": "C:\\Users\\arkin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\CrmDataBase\\obj\\",
+        "outputPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arkin\\AppData\\Roaming\\NuGet\\NuGet.Config"

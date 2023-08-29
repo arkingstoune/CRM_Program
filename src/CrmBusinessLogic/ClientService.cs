@@ -1,6 +1,7 @@
-using Crm;
+using Crm.Data;
 using System;
 using System.Collections.Generic;
+namespace Crm.BusinessLogic;
 public sealed class ClientService
 {
     public List<Client> _listofclients;
@@ -8,20 +9,20 @@ public sealed class ClientService
     {
         _listofclients = new();
     }
-    public Client CreateClient(ClientInfo clientInfo)
+    public void CreateClient(ClientInfo clientInfo)
     {
         Client NewClient = new()
         {
         FirstName = clientInfo.FirstName,
         LastName = clientInfo.LastName,
         MiddleName = clientInfo.MiddleName,
-        Age = clientInfo.Age,
         PassportNumber = clientInfo.PassportNumber,
-        Gender = clientInfo.Gender
+        Gender = clientInfo.Gender,
+        Age = short.Parse(clientInfo.Age)
         };
         
         _listofclients.Add(NewClient);
-        return NewClient;
+        // return NewClient;
     }   
     public Client Print_listOfClients(string firstName, string lastName)
     {
@@ -31,12 +32,13 @@ public sealed class ClientService
         }
         return null;
     }
-    public Client CreateOrder(ClientOrder clientOrder)
+    public void CreateOrder(OrderInfo orderinfo) 
     {
-        return new()
+        Order neworder = new()
         {
-            OrderSpecification = clientOrder.OrderSpecification,
-            OrderId = clientOrder.OrderId
+            OrderSpeciFication = orderinfo.OrderSpeciFication,
+            OrderId = orderinfo.OrderId,
+            Adress = orderinfo.Adress
         };
     }
 }

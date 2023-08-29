@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "CrmBusinessLogic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "CrmDataBase": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CrmBusinessLogic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrmBusinessLogic.dll": {}
+        }
+      },
+      "CrmDataBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CrmDataBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrmDataBase.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CrmBusinessLogic/1.0.0": {
+      "type": "project",
+      "path": "../CrmBusinessLogic/CrmBusinessLogic.csproj",
+      "msbuildProject": "../CrmBusinessLogic/CrmBusinessLogic.csproj"
+    },
+    "CrmDataBase/1.0.0": {
+      "type": "project",
+      "path": "../CrmDataBase/CrmDataBase.csproj",
+      "msbuildProject": "../CrmDataBase/CrmDataBase.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CrmBusinessLogic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\arkin\\.nuget\\packages\\": {}
@@ -13,11 +50,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\crm\\crm.csproj",
+      "projectUniqueName": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\crm\\crm.csproj",
       "projectName": "crm",
-      "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\crm\\crm.csproj",
+      "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\crm\\crm.csproj",
       "packagesPath": "C:\\Users\\arkin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\crm\\obj\\",
+      "outputPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\crm\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arkin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +68,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmBusinessLogic\\CrmBusinessLogic.csproj": {
+              "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmBusinessLogic\\CrmBusinessLogic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

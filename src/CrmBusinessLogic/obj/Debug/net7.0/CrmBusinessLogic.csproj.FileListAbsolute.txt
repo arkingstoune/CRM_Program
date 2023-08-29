@@ -1,0 +1,15 @@
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\bin\Debug\net7.0\CrmBusinessLogic.deps.json
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\bin\Debug\net7.0\CrmBusinessLogic.dll
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\bin\Debug\net7.0\CrmBusinessLogic.pdb
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\bin\Debug\net7.0\CrmDataBase.dll
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\bin\Debug\net7.0\CrmDataBase.pdb
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\CrmBusinessLogic.csproj.AssemblyReference.cache
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\CrmBusinessLogic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\CrmBusinessLogic.AssemblyInfoInputs.cache
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\CrmBusinessLogic.AssemblyInfo.cs
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\CrmBusinessLogic.csproj.CoreCompileInputs.cache
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\CrmBusinessLogic.csproj.CopyComplete
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\CrmBusinessLogic.dll
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\refint\CrmBusinessLogic.dll
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\CrmBusinessLogic.pdb
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmBusinessLogic\obj\Debug\net7.0\ref\CrmBusinessLogic.dll

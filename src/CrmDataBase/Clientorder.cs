@@ -1,4 +1,4 @@
-namespace Crm;
+namespace Crm.Data;
 
 public class ClientOrder
 {

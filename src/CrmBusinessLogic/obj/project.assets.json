@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "CrmDataBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/CrmDataBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CrmDataBase.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CrmDataBase/1.0.0": {
+      "type": "project",
+      "path": "../CrmDataBase/CrmDataBase.csproj",
+      "msbuildProject": "../CrmDataBase/CrmDataBase.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "CrmDataBase >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\arkin\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\CrmBusinessLogic\\CrmBusinessLogic.csproj",
+      "projectUniqueName": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmBusinessLogic\\CrmBusinessLogic.csproj",
       "projectName": "CrmBusinessLogic",
-      "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\CrmBusinessLogic\\CrmBusinessLogic.csproj",
+      "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmBusinessLogic\\CrmBusinessLogic.csproj",
       "packagesPath": "C:\\Users\\arkin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_program\\src\\CrmBusinessLogic\\obj\\",
+      "outputPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmBusinessLogic\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\arkin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj": {
+              "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
