@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj": {}
+    "C:\\Users\\arkin\\Desktop\\C#projects\\Crm_Program\\src\\CrmDataBase\\CrmDataBase.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj": {
+    "C:\\Users\\arkin\\Desktop\\C#projects\\Crm_Program\\src\\CrmDataBase\\CrmDataBase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj",
+        "projectUniqueName": "C:\\Users\\arkin\\Desktop\\C#projects\\Crm_Program\\src\\CrmDataBase\\CrmDataBase.csproj",
         "projectName": "CrmDataBase",
-        "projectPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\CrmDataBase.csproj",
+        "projectPath": "C:\\Users\\arkin\\Desktop\\C#projects\\Crm_Program\\src\\CrmDataBase\\CrmDataBase.csproj",
         "packagesPath": "C:\\Users\\arkin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\arkin\\Desktop\\C#PROJECTS\\CRM_Program\\src\\CrmDataBase\\obj\\",
+        "outputPath": "C:\\Users\\arkin\\Desktop\\C#projects\\Crm_Program\\src\\CrmDataBase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arkin\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,30 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools.DotNet": {
+              "target": "Package",
+              "version": "[2.0.3, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

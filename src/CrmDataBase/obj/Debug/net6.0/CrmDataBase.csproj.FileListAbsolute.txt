@@ -1,0 +1,5 @@
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net6.0\CrmDataBase.csproj.AssemblyReference.cache
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net6.0\CrmDataBase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net6.0\CrmDataBase.AssemblyInfoInputs.cache
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net6.0\CrmDataBase.AssemblyInfo.cs
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net6.0\CrmDataBase.csproj.CoreCompileInputs.cache

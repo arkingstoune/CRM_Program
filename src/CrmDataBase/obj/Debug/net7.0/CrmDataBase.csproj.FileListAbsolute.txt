@@ -10,3 +10,5 @@ C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net7.0\C
 C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net7.0\refint\CrmDataBase.dll
 C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net7.0\CrmDataBase.pdb
 C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDataBase\obj\Debug\net7.0\ref\CrmDataBase.dll
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDatabase\bin\Debug\net7.0\CrmDataBase.runtimeconfig.json
+C:\Users\arkin\Desktop\C#PROJECTS\CRM_Program\src\CrmDatabase\obj\Debug\net7.0\CrmDataBase.genruntimeconfig.cache

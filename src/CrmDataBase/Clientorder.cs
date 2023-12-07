@@ -1,6 +1,6 @@
 namespace Crm.Data;
 
-public class ClientOrder
+public class ClientOrder 
 {
     private string? _orderSpecification;
     private string? _orderId;
